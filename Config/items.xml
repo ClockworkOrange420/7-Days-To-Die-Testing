@@ -14,6 +14,7 @@
 			<property name="DamageBonus.crops" value="5"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.organic" value="5"/>
+			<property name="ToolCategory.harvestingTools" value="1.5" param1="1"/>
 			<property name="ToolCategory.Fishing" value="1" param1="10"/>
 		</property>
 		<property class="Action1">
@@ -61,8 +62,6 @@
 			<property name="ToolCategory.Butcher" value="1" param1="10"/>
 			<property name="ToolCategory.Fishing" value="1"/>
 			<property name="Sound_harvesting" value="open_animal" param1="organic"/>
-			<property name="ActionExp" value="4"/>
-			<property name="ActionExpBonusMultiplier" value="10"/>
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="10,20"/>
@@ -103,11 +102,9 @@
 	</item>
 	<item id="1626" name="Fishing Rod">
 		<property name="Meshfile" value="Items/Tools/stone_shovelPrefab"/>
-		<property name="Material" value="stone"/>
-		<property name="RepairTools" value="scrapPlastics"/>
+		<property name="Material" value="Mplastics"/>
 		<property name="HoldType" value="18"/>
-		<property name="FuelValue" value="18"/>
-		<property name="EconomicValue" value="5"/>
+		<property name="EconomicValue" value="500"/>
 		<property name="EconomicBundleSize" value="1"/>
 		<property name="SellableToTrader" value="false"/>
 		<property class="Action0">
@@ -125,23 +122,12 @@
 			<property name="Sound_start" value="SlowSwoosh"/>
 		</property>
 		<property name="Group" value="Tools/Traps,Basics"/>
-		<property name="DescriptionKey" value="stoneShovelDesc"/>
-		<property name="ActionSkillGroup" value="Mining Tools"/>
-		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
+		<property name="DescriptionKey" value="fishingRodDesc"/>
 	</item>
 	<item id="1627" name="Fishing Rod Full">
 		<property name="Meshfile" value="Items/Tools/stone_shovelPrefab"/>
-		<property name="Material" value="stone"/>
-		<property name="RepairTools" value="rockSmall"/>
+		<property name="Material" value="Mplastics"/>
 		<property name="HoldType" value="18"/>
-		<property name="DegradationBreaksAfter" value="false"/>
-		<property name="SoundJammed" value="ItemNeedsRepair"/>
-		<property name="SoundDestroy" value="wooddestroy1"/>
-		<property name="FuelValue" value="18"/>
-		<property name="EconomicValue" value="5"/>
-		<property name="EconomicBundleSize" value="1"/>
-		<property name="SellableToTrader" value="false"/>
 		<property class="Action1">
 			<!-- UseAction -->
 			<property name="Class" value="PlaceAsBlock"/>
@@ -151,9 +137,5 @@
 			<property name="Sound_start" value="bucketplace_water"/>
 		</property>
 		<property name="Group" value="Tools/Traps,Basics"/>
-		<property name="DescriptionKey" value="stoneShovelDesc"/>
-		<property name="ActionSkillGroup" value="Mining Tools"/>
-		<property name="CraftingSkillGroup" value="craftSkillTools"/>
-		<property name="RepairExpMultiplier" value="5.5"/>
 	</item>
 </items>
