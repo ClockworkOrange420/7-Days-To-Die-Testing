@@ -14,7 +14,7 @@
 			<property name="DamageBonus.crops" value="5"/>
 			<property name="DamageBonus.head" value="2"/>
 			<property name="DamageBonus.organic" value="5"/>
-			<property name="ToolCategory.Fishing" value="1"/>
+			<property name="ToolCategory.Fishing" value="1" param1="10"/>
 		</property>
 		<property class="Action1">
 			<!-- UseAction -->
