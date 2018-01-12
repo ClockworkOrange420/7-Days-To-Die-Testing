@@ -16086,7 +16086,8 @@ kind of free
         <property name="DescriptionKey" value="trapAdhesiveDesc"/>
         <property name="CustomIcon" value="woodPlate" />
         <property name="Material" value="MbarbedFence" />
-        <property name="Shape" value="Plate" />
+        <property name="Shape" value="New"/>
+		<property name="Model" value="Plate"/>
         <property name="Texture" value="217" />
         <drop event="Destroy" count="0" />
         <property name="Group" value="Building" />
