@@ -1482,7 +1482,7 @@
     </lootgroup>
     <lootgroup name="SupplyMP5" count="all">
         <item name="gunMP5"/>
-        <item name="10mmBullet" count="5,30"/>
+        <item name="9mmBullet" count="5,30"/>
         <item name="repairKit" count="3,4"/>
     </lootgroup>
     <lootgroup name="SupplySniperGroup">
