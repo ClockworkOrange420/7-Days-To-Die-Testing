@@ -1,0 +1,14 @@
+Details
+
+Sharpen 50%
+Clarity 100%
+HDR Toning 100%
+Bloom 0%
+
+Brightness/Contrast
+
+Exposure can either be 0% or negative -10%
+Contrast 30%
+Highlights 100%
+Shadows Negative -100% all the way down
+Gamma 0%
